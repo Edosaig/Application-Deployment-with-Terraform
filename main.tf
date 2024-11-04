@@ -12,16 +12,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# Create a ec2
-#resource "aws_instance" "my-server" {
-#   ami = "ami-0866a3c8686eaeeba"
-#   instance_type = "t2.micro"
-
-#   tags = {
-#      Name = "ubuntu"
-#   }
-#}
-
 #Terraform Project
 
 #1. create a vpc
